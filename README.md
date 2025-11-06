@@ -1,7 +1,7 @@
 ```markdown
 # Interrupt Controller Simulation (Java)
 
-## 🧠 Overview
+## Overview
 This project simulates a simple **Interrupt Controller** in Java.  
 It demonstrates how hardware interrupts (like from a keyboard, mouse, or printer) are handled using multithreading, priorities, and interrupt masking.
 
@@ -10,7 +10,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-## ⚙️ Features
+## Features
 - Simulates multiple hardware devices:
   - Keyboard
   - Mouse
@@ -25,7 +25,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-## 🧩 Classes Overview
+## Classes Overview
 
 | Class | Description |
 |--------|--------------|
@@ -37,7 +37,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-## ▶️ How It Works
+## How It Works
 1. Each device runs on a separate thread.
 2. Devices randomly raise interrupts.
 3. The controller:
@@ -48,7 +48,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-## 🧪 Example Output
+## Example Output
 
 ```
 
@@ -71,7 +71,7 @@ Simulation complete.
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 ### **1️⃣ Compile**
 Open your terminal in the project directory and run:
@@ -79,7 +79,7 @@ Open your terminal in the project directory and run:
 javac InterruptControllerShort.java
 ````
 
-### **2️⃣ Run**
+### ** Run**
 
 Then execute the compiled class:
 
@@ -89,7 +89,7 @@ java InterruptControllerShort
 
 ---
 
-## ⏱️ Simulation Time
+## Simulation Time
 
 * Runs for 8 seconds by default.
 * You can change the runtime by modifying this line in `main()`:
@@ -100,7 +100,7 @@ java InterruptControllerShort
 
 ---
 
-## 📜 Notes
+## Notes
 
 * Interrupts from masked devices are ignored and printed as `masked`.
 * You can change the initial mask settings in:
@@ -114,7 +114,7 @@ java InterruptControllerShort
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Raksha Poojary**
 Project: *Interrupt Controller Simulation using Java Threads*
